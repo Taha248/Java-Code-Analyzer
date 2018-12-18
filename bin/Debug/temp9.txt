@@ -1,0 +1,82 @@
+
+
+
+package org.tensorflow.contrib.android
+;
+
+
+
+public class RunStats implements AutoCloseable {
+
+  
+
+  public static byte[] runOptions() {
+    return fullTraceRunOptions
+;
+
+  }
+
+  public RunStats() {
+    nativeHandle = allocate()
+;
+
+  }
+
+  @Override
+  public void close() {
+    if (nativeHandle != 0) {
+      delete(nativeHandle)
+;
+
+    }
+    nativeHandle = 0
+;
+
+  }
+
+  
+  public synchronized void add(byte[] runMetadata) {
+    add(nativeHandle
+,
+ runMetadata)
+;
+
+  }
+
+  
+  public synchronized String summary() {
+    return summary(nativeHandle)
+;
+
+  }
+
+  private long nativeHandle
+;
+
+
+  
+  
+  private static byte[] fullTraceRunOptions = new byte[] {0x08
+,
+ 0x03}
+;
+
+
+  private static native long allocate()
+;
+
+
+  private static native void delete(long handle)
+;
+
+
+  private static native void add(long handle
+,
+ byte[] runMetadata)
+;
+
+
+  private static native String summary(long handle)
+;
+
+}

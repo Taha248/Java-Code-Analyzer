@@ -1,0 +1,11 @@
+D:\Github\Error502\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Github\Error502\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Github\Error502\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Github\Error502\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Github\Error502\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Github\Error502\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\Github\Error502\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Github\Error502\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Github\Error502\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\Github\Error502\WindowsFormsApplication1\bin\Debug\Octokit.dll
+D:\Github\Error502\WindowsFormsApplication1\bin\Debug\Octokit.xml
